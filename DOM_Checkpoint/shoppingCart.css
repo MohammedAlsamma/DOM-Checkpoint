@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+nav h1 {
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+}
+
+nav {
+    background-color: #FAC213;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+}
+
+.fa-cart-shopping {
+    padding: 10px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.fa-cart-shopping:hover {
+    transition: all 100ms;
+    background-color: #FEF9A7;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+section {
+    margin-top: 1em;
+}
+
+
+.add-to-cart {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    transition: all 400ms ease-in-out;
+    background-color: #F77E21;
+
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item-img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-items {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cart-column,
+.cart-item-title {
+    align-self: center;
+}
+
+.btn {
+    background-color: #D61C4E;
+    color: white;
+    width: 80%;
+    padding: 5px;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: all 500ms;
+    background-color: rgb(204, 2, 42);
+}
+
+.cart-quantity-input {
+    width: 40px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-purchase {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #FFE300;
+    color: white;
+    padding: 10px;
+    border: 0.03em solid black;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.btn-purchase:hover {
+    transition: all 300ms;
+    background-color: #ffed62;
+}
